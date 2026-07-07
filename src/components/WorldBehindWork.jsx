@@ -2,7 +2,7 @@ import SectionShell from './SectionShell.jsx'
 
 export default function WorldBehindWork() {
   return (
-    <SectionShell id="world" eyebrow="The world behind the work" title="Book first, author second, platform third.">
+    <SectionShell id="world" eyebrow="The world behind the work" title="The world beyond the compass.">
       <div className="relative overflow-hidden rounded-lg border border-white/10 bg-charcoal/82 p-6 shadow-glass sm:p-8">
         <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-copper/20" />
         <div className="relative grid gap-8 lg:grid-cols-[0.75fr_1fr]">
@@ -10,9 +10,9 @@ export default function WorldBehindWork() {
             <div className="h-full rounded-full border border-copper/35" />
           </div>
           <p className="self-center text-lg leading-8 text-bone/76">
-            The work connects fiction, systems thinking, technology, and a broader digital world the author has been
-            building. The website should give that world a clearer public structure: book first, author second, platform
-            third.
+            Blood Compass points beyond a single book page. The story’s atmosphere, systems, and wider creative
+            direction give Zaman Huseynli room to build a broader author platform around fiction, technology, and
+            world-building.
           </p>
         </div>
       </div>

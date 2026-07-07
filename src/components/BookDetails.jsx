@@ -5,14 +5,14 @@ const details = [
   ['Author', 'Zaman Huseynli / Zamanhuseyinli'],
   ['Format', 'eBook / ePUB'],
   ['ISBN / EAN', '9798231453658'],
-  ['Publisher Listed', 'Zamanhuseyinli'],
+  ['Publisher / Listing', 'Zamanhuseyinli'],
   ['Release', 'April 2025'],
   ['Language', 'English'],
 ]
 
 export default function BookDetails() {
   return (
-    <SectionShell id="details" eyebrow="Book details" title="Clear information without inflated claims." className="pt-8">
+    <SectionShell id="details" eyebrow="Book details" title="Book details at a glance." className="pt-8">
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {details.map(([label, value]) => (
           <div key={label} className="rounded-lg border border-white/10 bg-white/[0.045] p-5">
