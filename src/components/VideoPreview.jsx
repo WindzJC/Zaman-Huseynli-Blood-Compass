@@ -2,7 +2,7 @@ import SectionShell from './SectionShell.jsx'
 
 export default function VideoPreview() {
   return (
-    <SectionShell id="video" eyebrow="Video" title="Future Author / Platform Video">
+    <SectionShell id="video" eyebrow="Related media" title="A place for the world behind the work.">
       <div className="grid gap-8 lg:grid-cols-[1fr_0.86fr]">
         <div className="relative aspect-video overflow-hidden rounded-lg border border-copper/24 bg-gradient-to-br from-[#170508] via-charcoal to-night shadow-ember">
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(244,234,220,0.07)_1px,transparent_1px),linear-gradient(rgba(244,234,220,0.05)_1px,transparent_1px)] bg-[length:46px_46px]" />
@@ -13,8 +13,9 @@ export default function VideoPreview() {
         </div>
         <div className="self-center rounded-lg border border-white/10 bg-white/[0.045] p-6 sm:p-8">
           <p className="text-lg leading-8 text-bone/78">
-            A short author/platform video can introduce the larger message behind the work, connect the book to the
-            author’s broader ideas, and give readers a clearer reason to continue.
+            This direction leaves room for author media, music, or a project video when verified material is available,
+            connecting the book to the wider creative ideas behind the work without presenting unfinished content as
+            published media.
           </p>
         </div>
       </div>

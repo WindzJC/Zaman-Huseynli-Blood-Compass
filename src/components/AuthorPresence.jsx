@@ -6,9 +6,9 @@ export default function AuthorPresence() {
       <div className="grid gap-8 lg:grid-cols-[1fr_0.72fr]">
         <div className="rounded-lg border border-white/10 bg-white/[0.05] p-6 shadow-glass sm:p-8">
           <p className="text-lg leading-8 text-bone/78">
-            Zaman Huseynli is a writer and engineering-minded creator whose public work connects fiction, software,
-            open-source ideas, and digital systems. Blood Compass gives that creative direction a sharper public-facing
-            home, helping readers understand the book, the author, and the world behind the work.
+            Zaman Huseynli is the author presented with Blood Compass. This concept direction gives the book and author
+            one focused public-facing home, helping readers understand the story, the creative world, and where related
+            media or future work could live.
           </p>
         </div>
         <div className="rounded-lg border border-copper/20 bg-gradient-to-br from-oxblood/28 to-white/[0.04] p-6">

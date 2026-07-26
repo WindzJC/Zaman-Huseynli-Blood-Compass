@@ -5,7 +5,6 @@ const details = [
   ['Author', 'Zaman Huseynli / Zamanhuseyinli'],
   ['Format', 'eBook / ePUB'],
   ['ISBN / EAN', '9798231453658'],
-  ['Publisher / Listing', 'Zamanhuseyinli'],
   ['Release', 'April 2025'],
   ['Language', 'English'],
 ]

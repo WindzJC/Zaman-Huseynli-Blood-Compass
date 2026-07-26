@@ -10,17 +10,11 @@ export default function CTASection() {
             </h2>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
-            {/* TODO: Replace #book with the real book purchase/distribution link. */}
             <a className="rounded-full bg-copper px-6 py-3 text-center text-sm font-bold text-night transition hover:bg-[#dfa05f]" href="#book">
               View the Book
             </a>
-            {/* TODO: Replace #contact with the real author contact link/email. */}
-            <a className="rounded-full border border-white/16 bg-white/[0.06] px-6 py-3 text-center text-sm font-bold text-bone transition hover:bg-white/12" href="#contact">
-              Contact the Author
-            </a>
-            {/* TODO: Replace #world with the real platform/community link. */}
             <a className="rounded-full border border-white/16 bg-white/[0.06] px-6 py-3 text-center text-sm font-bold text-bone transition hover:bg-white/12" href="#world">
-              Explore the Platform
+              Explore the Creative World
             </a>
           </div>
         </div>
